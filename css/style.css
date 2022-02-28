@@ -1,0 +1,257 @@
+/*
+    Author: Ravikiran;
+    Theme: Restaurant foor order;
+    Version:1.0;
+*/
+
+/* CSS for all */
+.container{
+/*    border: 1px solid red; */
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 5px;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    font-size: 1rem;
+/*  border: none;
+    border-radius: 5px; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+h3{
+    color: white;
+    font-size: 1.2rem ;
+}
+
+h4{
+    margin-top: 0%;
+    font-size: 1rem;
+    padding: 1%;
+    padding-left: 0%;
+    margin-bottom: 0.75%;
+}
+.float-container{
+    position: relative;
+    left: 2%;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color: white;
+}
+/* CSS for navbar section */
+.logo{
+ /*   border: 1px solid black; */
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 3px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/*.menu ul li a{
+    color: black
+}*/
+
+/* CSS for FOOD search section*/
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size:1rem;
+/*    border: none;
+    border-radius: 5px; */
+}
+
+/* CSS for Categories section*/
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size:1rem;
+/*    border: none;
+    border-radius: 5px; */
+}
+.box-3{
+    width: 28%;
+    float: left;
+    padding: 2%;
+}
+
+
+/* CSS for FOOD Menu section*/
+.food-menu{
+    background-color: #ececec;
+    padding: 0.8% 0;    
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+    
+}
+.food-menu-desc{
+    width: 60%;
+    float:left;
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+}
+.food-menu-box{
+/*    border: 1px solid black; */
+    width: 48%;
+    margin: 0.2% 0;
+    padding: 0.75%;
+    float: left;
+    background-color: white;
+/*    border-radius: 15px; */
+}
+.food-price{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0%;
+    padding: 0.5%;
+}
+.food-desc{
+    font-size: 0.8rem;
+    color: #747d8c;
+    margin: 0%;
+    padding: 0%;
+}
+.food-detail{
+    font-size: 0.6rem;
+    color: #747d8c;
+    margin: 0%;
+    margin-bottom: 0%;
+    padding: 1%;
+}
+
+/* CSS for Social */
+.Social-List ul{
+    list-style-type: none;
+}
+.Social-List ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* CSS for mobile */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 60%;
+        float: none;
+        margin: 1% auto;
+    }
+    .menu ul{
+        text-align: center;
+    }
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 90%;
+        margin: 4% auto;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .Social{
+        padding: 5% 0;
+    }
+}
